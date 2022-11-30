@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>text to speech converter</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h3>Text to Speech Application For Vision Impaired Students</h3>
+		</div>
+		
+		<textarea id="text" cols="30" rows="12" placeholder="Type text here............"></textarea>
+
+		<div class="tools">
+			<div>
+				<label for="pitch">Voice Pitch</label>
+				<input type="range" id="pitch" max="2">
+			</div>
+			<div>
+				<label for="speed">Voice Speed</label>
+				<input type="range" id="speed" max="2">
+			</div>
+		</div>
+
+		<button id="btn">Speak Now</button>
+	</div>
+
+	<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
